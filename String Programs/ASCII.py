@@ -1,0 +1,4 @@
+user_string = input("Enter a string: ")
+
+for char in user_string:
+  print(f"Character: {char}, ASCII: {ord(char)}")
